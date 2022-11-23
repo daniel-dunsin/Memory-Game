@@ -2,6 +2,7 @@ import React from "react";
 import { Title } from "./components/title";
 import { CardsList } from "./components/cardsList";
 import { Turns } from "./components/turns";
+import { Modal } from "./components/modal";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Title />
         <CardsList />
         <Turns />
+        <Modal />
       </div>
     </main>
   );
