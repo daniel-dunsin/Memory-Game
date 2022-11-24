@@ -11,6 +11,7 @@ export function Title() {
       <button
         className="text-[20px] text-white px-4 py-2 font-bold border-2 border-white rounded-md hover:bg-mainPink tracking-wider"
         onClick={shuffleCards}
+        data-testid="button"
       >
         New Game
       </button>

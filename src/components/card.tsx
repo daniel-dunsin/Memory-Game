@@ -23,12 +23,12 @@ export function Card({ src, id }: ICard) {
     <article className={`w-full relative card ${flipped && "flipped"}`}>
       <img
         src={src}
-        alt={src}
+        alt={id}
         className="border-2 border-white rounded-md front"
       />
       <img
         src="./img/cover.png"
-        alt="cover"
+        alt={src}
         className="w-full border-2 border-white rounded-md back"
         onClick={() => {
           selectCard({ src, id });
