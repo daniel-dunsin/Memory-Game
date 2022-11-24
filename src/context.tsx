@@ -24,6 +24,8 @@ export const AppProvider = ({ children }: { children: React.ReactElement }) => {
     setCards(() => shuffledCards);
     setMatchedCards([]);
     setTurns(0);
+    setFirstCard(null);
+    setSecondCard(null);
   };
 
   const resetTurns = () => {
